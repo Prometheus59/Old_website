@@ -1,8 +1,37 @@
 body {
-  font-family: 'Roboto Slab', serif;
-  color: #fff;
-  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-family: 'Josefin Slab', serif;
+  color: white;
 }
+
+h1{
+  font-size: 200%; 
+}
+
+a:link, a:visited{
+  background-color: #f44336;
+  color: white;
+  padding: 14px 14px 14px 14px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  width: 5%;
+  height: 15px;
+  margin: 10px;
+}
+
+a:hover, a:active{
+  background-color: red);
+}
+
+.title {
+  text-align: center;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlvv0IWUhFg5jSp2BWiIFYUEXcvw2QVHaeIcBKbVNdAwQAM03z");
+  background-size: cover;
+  padding: 10px;
+  font-size: 180%;
+}
+
+
 
 .video-background {
   background: #000;
@@ -23,6 +52,6 @@ body {
   max-width: 3840px;
 }
 
-#dog {
+h1 {
   text-align: center;
 }

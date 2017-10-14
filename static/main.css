@@ -3,10 +3,50 @@ body {
   color: white;
 }
 
+.test{
+  color: black;
+}
+
+.education {
+    color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top:0px;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
 h1{
   font-size: 200%; 
 }
 
+/*
 a:link, a:visited{
   background-color: #f44336;
   color: white;
@@ -23,33 +63,14 @@ a:hover, a:active{
   background-color: red);
 }
 
+*/
+
 .title {
   text-align: center;
   background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlvv0IWUhFg5jSp2BWiIFYUEXcvw2QVHaeIcBKbVNdAwQAM03z");
   background-size: cover;
   padding: 10px;
   font-size: 180%;
-}
-
-
-
-.video-background {
-  background: #000;
-  position: fixed;
-  top: 0; right: 0; bottom: 0; left: 0;
-  z-index: -99;
-}
-.video-foreground,
-.video-background iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  pointer-events: none;
-  max-width: 3840px;
 }
 
 h1 {

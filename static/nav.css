@@ -6,9 +6,9 @@ html, body, .page {
   transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
   -webkit-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
   -moz-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
-  -o-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);  
+  -o-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
   color: #fff;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 * {
@@ -72,6 +72,7 @@ ul .icon:hover {
   line-height: 2;
 }
 
+#t1:target ul .icon,
 #t2:target ul .icon,
 #t3:target ul .icon,
 #t4:target ul .icon,
@@ -83,6 +84,7 @@ ul .icon:hover {
   transition-delay: .25s;
 }
 
+#t1:target #uno,
 #t2:target #dos,
 #t3:target #tres,
 #t4:target #cuatro,

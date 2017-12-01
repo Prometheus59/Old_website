@@ -48,7 +48,7 @@ html, body, .page {
 #t3:target #p1,
 #t4:target #p1,
 #t5:target #p1{
-  background: black;
+  background: #05C0C0;
 }
 
 #t2:target #p1 .icon,
@@ -81,18 +81,19 @@ ul .icon:hover {
   -webkit-transform: scale(.6);
   -moz-transform: scale(.6);
   -o-transform: scale(.6);
-  transition-delay: .25s;
+  transition-delay: 0.05s;
 }
 
 #t1:target #uno,
 #t2:target #dos,
 #t3:target #tres,
-#t4:target #cuatro,
+#t4:target #cuatro, 
 #t4:target #cinco {
   transform: scale(1.2) !important;
   -webkit-transform: scale(1.2) !important;
   -moz-transform: scale(1.2) !important;
   -o-transform: scale(1.2) !important;
+  transition-delay: 0.05s;
 }
 
 .icons ul {

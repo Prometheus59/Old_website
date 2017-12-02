@@ -83,3 +83,24 @@ iframe {
   margin: 10px;
   margin-left: 35px;
 }
+
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  /*align-items: stretch;*/
+}
+
+#e1, #e2, #e3 {
+  margin-top: 30px;
+  margin-left: 120px;
+  border-style: double;
+  border-colour: rgb(4, 124, 124);
+  width: 20%;
+  padding-left: 30px;
+}
+
+.education h3 {
+  font-size: 170%;
+}

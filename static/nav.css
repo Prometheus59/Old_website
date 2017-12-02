@@ -55,6 +55,7 @@ html, body, .page {
 #t3:target #p1 .icon,
 #t4:target #p1 .icon,
 #t5:target #p1 .icon {
+  filter: blur(3px);
   -webkit-filter: blur(3px);
 }
 

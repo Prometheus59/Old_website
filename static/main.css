@@ -11,8 +11,8 @@ h1 {
 }
 
 .ppic{
-  height: 100%;
-  width: 25%;
+  height: auto;
+  width: 18%;
 }
 
 .about{
@@ -53,6 +53,10 @@ img {
   height: auto;
 }
 
+iframe {
+  margin-top: 30px;
+}
+
 .skills {
   display: flex;
   flex-direction: column;
@@ -77,4 +81,5 @@ img {
   justify-content: center;
   align-items: center;
   margin: 10px;
+  margin-left: 35px;
 }

@@ -63,10 +63,19 @@ iframe {
   flex-wrap: wrap; /* Maybe?? */
 }
 
-.plang {
+.plangs {
+  display: flex;
   order: 1;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: flex-start;
+  width: 150px;
+  height: 150px;
+  list-style-type: none;
+}
+
+.plangs img {
+  border-radius: 0%;
 }
 
 .ttools {
@@ -86,21 +95,24 @@ iframe {
 
 .education {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  /*align-items: stretch;*/
 }
 
 #e1, #e2, #e3 {
   margin-top: 30px;
-  margin-left: 120px;
+  margin-left: 60px;
   border-style: double;
   border-colour: rgb(4, 124, 124);
   width: 20%;
   padding-left: 30px;
 }
 
-.education h3 {
+#p2 h3 {
   font-size: 170%;
+}
+
+#p2 h1 {
+  text-align: center;
 }

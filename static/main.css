@@ -63,19 +63,18 @@ iframe {
   flex-wrap: wrap; /* Maybe?? */
 }
 
-.plangs {
+.languages {
+  align-items: flex-start;
+  list-style-type: none;
   display: flex;
-  order: 1;
-  flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
-  width: 150px;
-  height: 150px;
-  list-style-type: none;
 }
 
-.plangs img {
+.skills img {
   border-radius: 0%;
+  height: 100px;
+  margin: 15px;
 }
 
 .ttools {
@@ -115,4 +114,9 @@ iframe {
 
 #p2 h1 {
   text-align: center;
+}
+
+#p3 h1 {
+  text-align: left;
+  margin-left: 50px;
 }

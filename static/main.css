@@ -77,6 +77,25 @@ iframe {
   margin: 15px;
 }
 
+.contactList {
+  align-items: stretch;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.contact img {
+  border-radius: 0%;
+  height: 100px;
+  margin: 15px;
+}
+
+.contact h2 {
+  margin-left: 40px;
+  color: black;
+}
+
 .ttools {
   order: 2;
   flex-wrap: wrap;
@@ -97,6 +116,11 @@ iframe {
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+.contactList {
+  list-style-type: none;
+  
 }
 
 #e1, #e2, #e3 {

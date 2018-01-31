@@ -68,6 +68,13 @@ img {
   margin: 15px;
 }
 
+.ttools img {
+  border-radius: 0%;
+  max-width: 300px;
+  height: 100px;
+  margin: 15px;
+}
+
 .contactList {
   align-items: stretch;
   list-style-type: none;

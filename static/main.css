@@ -10,7 +10,7 @@ h1 {
   text-align: center;
 }
 
-.about{
+.about {
   display: flex;
   align-items: center;
   margin-right: 50px;
@@ -20,16 +20,15 @@ h1 {
   align-content: stretch;
 }
 
-
-.bsec1{
+.bsec1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
-.bsec2{
+.bsec2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -51,7 +50,8 @@ img {
 .skills {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap; /* Maybe?? */
+  flex-wrap: wrap;
+  /* Maybe?? */
 }
 
 .languages {
@@ -111,10 +111,11 @@ img {
 
 .contactList {
   list-style-type: none;
-  
 }
 
-#e1, #e2, #e3 {
+#e1,
+#e2,
+#e3 {
   margin-top: 30px;
   margin-left: 60px;
   border-style: double;

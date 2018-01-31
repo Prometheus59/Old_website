@@ -210,21 +210,3 @@ a {
   text-rendering: auto;
   transform: translate(0, 0);
 }
-/*
-.fa-home::before {
-  content: "Home iicon";
-  top: 0;
-}
-
-.fa-education::before {
-  content: "Edcuation Icon";
-}
-
-.fa-skills::before{
-  content: "Skills Icon";
-}
-
-.fa-contact::before{
-  content: "Contact Icon";
-}
-*/

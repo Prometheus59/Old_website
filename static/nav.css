@@ -31,21 +31,24 @@ html, body, .page {
 #p2 { background:linear-gradient(135deg, #c94acc 0%,#6094ea 100%);}
 #p3 { background:linear-gradient(135deg, #c3ec52 0%,#0ba29d 100%);}
 #p4 { background:linear-gradient(135deg, #fad961 0%,#f76b1c 100%);}
-#p5 { background: black; }
+#p5 { background: grey; }
 
 #education:target #p2,
 #skills:target #p3,
-#contact:target #p4 {
+#contact:target #p4,
+#projects:target #p5 {
   transform: translateX(-190%);
   -webkit-transform: translateX(-190%);
   -moz-transform: translateX(-190%);
   -o-transform: translateX(-190%);
-  transition-delay: .4s !important;
+  transition-delay: .01s !important;
+  transition-duration: 1s;
 }
 
 #education:target #p1,
 #skills:target #p1,
-#contact:target #p1 {
+#contact:target #p1,
+#projects:target #p1 {
   background:linear-gradient(135deg, #17ead9 0%,#6078ea 100%);
 }
 
@@ -66,7 +69,8 @@ ul .icon:hover {
 #about:target ul .icon,
 #education:target ul .icon,
 #skills:target ul .icon,
-#contact:target ul .icon {
+#contact:target ul .icon,
+#projects:target ul .icon {
   transform: scale(.6);
   -webkit-transform: scale(.6);
   -moz-transform: scale(.6);
@@ -78,7 +82,8 @@ ul .icon:hover {
 #about:target #uno,
 #education:target #dos,
 #skills:target #tres,
-#contact:target #cuatro {
+#contact:target #cuatro,
+#projects:target #cinquo {
   transform: scale(1.2) !important;
   -webkit-transform: scale(1.2) !important;
   -moz-transform: scale(1.2) !important;

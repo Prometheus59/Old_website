@@ -33,9 +33,9 @@ html, body, .page {
 #p4 { background:linear-gradient(135deg, #fad961 0%,#f76b1c 100%);}
 #p5 { background: #ADBBD6; }
 
-#t2:target #p2,
-#t3:target #p3,
-#t4:target #p4,
+#education:target #p2,
+#skills:target #p3,
+#contact:target #p4,
 #t5:target #p5 {
   transform: translateX(-190%);
   -webkit-transform: translateX(-190%);
@@ -44,16 +44,16 @@ html, body, .page {
   transition-delay: .4s !important;
 }
 
-#t2:target #p1,
-#t3:target #p1,
-#t4:target #p1,
+#education:target #p1,
+#skills:target #p1,
+#contact:target #p1,
 #t5:target #p1{
   background:linear-gradient(135deg, #17ead9 0%,#6078ea 100%);
 }
 
-#t2:target #p1 .icon,
-#t3:target #p1 .icon,
-#t4:target #p1 .icon,
+#education:target #p1 .icon,
+#skills:target #p1 .icon,
+#contact:target #p1 .icon,
 #t5:target #p1 .icon {
   filter: blur(3px);
   -webkit-filter: blur(3px);
@@ -73,10 +73,10 @@ ul .icon:hover {
   line-height: 2;
 }
 
-#t1:target ul .icon,
-#t2:target ul .icon,
-#t3:target ul .icon,
-#t4:target ul .icon,
+#about:target ul .icon,
+#education:target ul .icon,
+#skills:target ul .icon,
+#contact:target ul .icon,
 #t5:target ul .icon{
   transform: scale(.6);
   -webkit-transform: scale(.6);
@@ -85,11 +85,11 @@ ul .icon:hover {
   transition-delay: 0.05s;
 }
 
-#t1:target #uno,
-#t2:target #dos,
-#t3:target #tres,
-#t4:target #cuatro, 
-#t4:target #cinco {
+#about:target #uno,
+#education:target #dos,
+#skills:target #tres,
+#contact:target #cuatro, 
+#contact:target #cinco {
   transform: scale(1.2) !important;
   -webkit-transform: scale(1.2) !important;
   -moz-transform: scale(1.2) !important;
@@ -196,9 +196,9 @@ a {
   transform: translateX(10%) !important;
 }
 
-#t2:target .page#p2 .icon,
-#t3:target .page#p3 .icon,
-#t4:target .page#p4 .icon,
+#education:target .page#p2 .icon,
+#skills:target .page#p3 .icon,
+#contact:target .page#p4 .icon,
 #t5:target .page#p5 .icon {
   transform: translateX(0) !important;
   transition-delay: 1s;

@@ -148,7 +148,8 @@ img {
 }
 
 #p2 h1 {
-  text-align: center;
+  text-align: left;
+  padding-left: 474px;
 }
 
 #p3 h1 {

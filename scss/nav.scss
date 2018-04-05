@@ -179,7 +179,7 @@ body,
   }
 }
 
-@media screen and (min-width: 200px) {
+@media screen and (min-width: 200px) and (max-width: 375px) {
   // This isn't working
   .icons{
     display: none;
@@ -194,6 +194,10 @@ body,
     right: 0;
     top: 0;
     bottom: 0;
+  }
+
+  .fa {
+    display: none;
   }
 }
 

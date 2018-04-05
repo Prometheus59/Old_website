@@ -163,7 +163,7 @@ body,
     text-rendering: auto;
     transform: translate(0, 0); } }
 
-@media screen and (min-width: 200px) {
+@media screen and (min-width: 200px) and (max-width: 375px) {
   /* line 184, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
   .icons {
     display: none; }
@@ -176,9 +176,12 @@ body,
     left: 0;
     right: 0;
     top: 0;
-    bottom: 0; } }
+    bottom: 0; }
+  /* line 199, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+  .fa {
+    display: none; } }
 
-/* line 201, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+/* line 205, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
 a {
   text-decoration: none; }
 

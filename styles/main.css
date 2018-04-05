@@ -10,20 +10,35 @@
 h1 {
   text-align: center; }
 
-/* line 13, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
-.about {
-  display: flex;
-  align-items: center;
-  margin-right: 50px;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-content: stretch; }
-  /* line 14, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
-  .about .summary {
-    margin-left: 150px; }
+@media screen and (min-width: 376px) {
+  /* line 16, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+  .about {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch; }
+    /* line 17, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+    .about .summary {
+      margin-left: 150px; } }
 
-/* line 26, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+@media screen and (min-width: 200px) {
+  /* line 31, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+  .about {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch; }
+    /* line 32, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+    .about .summary {
+      margin-left: 20px; } }
+
+/* line 45, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 .bsec {
   display: flex;
   flex-direction: row;
@@ -31,25 +46,25 @@ h1 {
   align-items: center;
   flex-wrap: wrap; }
 
-/* line 34, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 53, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 300%; }
 
-/* line 39, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 58, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 img {
   border-radius: 50%;
   max-width: 100%;
   height: auto; }
 
-/* line 45, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 64, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 .skills {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   /* Maybe?? */ }
 
-/* line 52, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 71, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 .languages {
   align-items: flex-start;
   list-style-type: none;
@@ -57,20 +72,20 @@ img {
   flex-direction: row;
   justify-content: flex-start; }
 
-/* line 60, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 79, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 .skills img {
   border-radius: 0%;
   height: 100px;
   margin: 15px; }
 
-/* line 66, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 85, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 .ttools img {
   border-radius: 0%;
   max-width: 200px;
   height: 100px;
   margin: 15px; }
 
-/* line 73, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 92, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 .contactList {
   align-items: stretch;
   list-style-type: none;
@@ -78,24 +93,24 @@ img {
   flex-direction: row;
   justify-content: flex-start; }
 
-/* line 82, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 101, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 .contact img {
   border-radius: 0%;
   height: 100px;
   margin: 15px; }
 
-/* line 87, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 106, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 .contact h2 {
   margin-left: 40px;
   color: black; }
 
-/* line 93, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 112, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 .ttools {
   order: 2;
   flex-wrap: wrap;
   justify-content: flex-end; }
 
-/* line 99, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 118, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 .summary {
   display: flex;
   flex-direction: column;
@@ -104,19 +119,21 @@ img {
   margin: 10px;
   margin-left: 50px; }
 
-/* line 108, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 127, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 .education {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap; }
 
-/* line 115, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 134, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 .contactList {
   list-style-type: none; }
 
-/* line 119, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
-#e1, #e2, #e3 {
+/* line 138, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+#e1,
+#e2,
+#e3 {
   margin-top: 30px;
   margin-left: 60px;
   width: 20%;
@@ -125,28 +142,28 @@ img {
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   color: darkblue; }
 
-/* line 129, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 150, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 #e1 {
   background-image: linear-gradient(120deg, #a6c1ee 0%, #fbc2eb 100%); }
 
-/* line 133, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 154, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 #e2 {
   background-image: radial-gradient(#fad0c4, #ffd1ff); }
 
-/* line 137, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 158, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 #e3 {
   background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%); }
 
-/* line 142, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 163, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 #p2 h3 {
   font-size: 170%; }
 
-/* line 145, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 166, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 #p2 h1 {
   text-align: left;
   padding-left: 474px; }
 
-/* line 151, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
+/* line 172, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/main.scss */
 #p3 h1 {
   text-align: left;
   margin-left: 50px; }

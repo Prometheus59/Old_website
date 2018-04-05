@@ -16,7 +16,7 @@ html, body, .page {
 }
 
 .page {
-  position: absolute;
+  position: fixed;
 }
 
 #p1 {

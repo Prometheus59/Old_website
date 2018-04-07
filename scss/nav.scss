@@ -76,8 +76,6 @@ body,
   background: linear-gradient(135deg, #17ead9 0%, #6078ea 100%);
 }
 
-
-
 #about:target ul .icon,
 #education:target ul .icon,
 #skills:target ul .icon,
@@ -104,11 +102,7 @@ body,
   transition-duration: 1s;
 }
 
-
-
-
 @media screen and (min-width: 376px) {
-
   .icon {
     color: #fff;
     font-size: 32px;
@@ -120,7 +114,6 @@ body,
       line-height: 2;
     }
   }
-
   .icons ul {
     position: fixed;
     z-index: 1;
@@ -136,7 +129,6 @@ body,
   .title {
     font-size: 38px;
   }
-
   .page {
     .icon {
       position: absolute;
@@ -170,18 +162,25 @@ body,
       bottom: 0;
     }
   }
-  
   .fa {
     display: inline-block;
     font-size: 25px;
     text-rendering: auto;
     transform: translate(0, 0);
   }
+  #men-button {
+    display: none;
+  }
 }
 
-@media screen and (min-width: 200px) and (max-width: 375px) {
+@media screen and (min-width: 200px) {
   // This isn't working
-  .icons{
+
+  .icons ul {
+    display: none;
+  }
+
+  .fa {
     display: none;
   }
 
@@ -195,18 +194,44 @@ body,
     top: 0;
     bottom: 0;
   }
-
-  .fa {
-    display: none;
+  .menu-button {
+    background: #000;
+    width: 50px;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    transition: all linear .3s;
+    padding: 4px;
+    z-index: 1;
+  }
+  .menu-button.active {
+    background: #3d3d3d;
+  }
+  .line-1,
+  .line-2,
+  .line-3 {
+    width: 90%;
+    background: #fff;
+    height: 8px;
+    margin: 4px auto;
+    border-radius: 2px;
+    transition: all linear .3s;
+  }
+  .line-1.active {
+    transform: translate(0px, 12px) rotate(45deg);
+    -webkit-transform: translate(0px, 12px) rotate(45deg);
+    -moz-transform: translate(0px, 12px) rotate(45deg);
+    -o-transform: translate(0px, 12px) rotate(45deg);
+  }
+  .line-2.active {
+    opacity: 0;
+  }
+  .line-3.active {
+    -webkit-transform: translate(0px, -12px) rotate(-45deg);
+    transform: translate(0px, -12px) rotate(-45deg);
   }
 }
-
 
 a {
   text-decoration: none;
 }
-
-
-
-
-

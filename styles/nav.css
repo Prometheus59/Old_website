@@ -98,19 +98,19 @@ body,
   transition-delay: 0.05s;
   transition-duration: 1s; }
 
-@media screen and (min-width: 376px) {
-  /* line 106, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+@media screen and (min-width: 900px) {
+  /* line 107, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
   .icon {
     color: #fff;
     font-size: 32px;
     display: block; }
-    /* line 110, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+    /* line 111, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
     .icon ul .icon:hover {
       opacity: 0.5; }
-    /* line 113, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+    /* line 114, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
     .icon .page .title {
       line-height: 2; }
-  /* line 117, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+  /* line 119, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
   .icons ul {
     position: fixed;
     z-index: 1;
@@ -122,10 +122,10 @@ body,
     width: 10%;
     padding: 0;
     text-align: center; }
-  /* line 129, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+  /* line 131, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
   .title {
     font-size: 38px; }
-  /* line 133, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+  /* line 135, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
   .page .icon {
     position: absolute;
     top: 0;
@@ -146,7 +146,7 @@ body,
     -webkit-transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1.25);
     -moz-transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1.25);
     -o-transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1.25); }
-  /* line 154, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+  /* line 156, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
   .page .about {
     font-size: 20px;
     text-align: center;
@@ -156,24 +156,24 @@ body,
     right: 0;
     top: 0;
     bottom: 0; }
-  /* line 165, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+  /* line 167, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
   .fa {
     display: inline-block;
     font-size: 25px;
     text-rendering: auto;
     transform: translate(0, 0); }
-  /* line 171, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
-  #men-button {
+  /* line 173, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+  .menu-button {
     display: none; } }
 
-@media screen and (min-width: 200px) {
-  /* line 179, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+@media screen and (max-width: 899.99999px) {
+  /* line 181, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
   .icons ul {
     display: none; }
-  /* line 183, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+  /* line 185, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
   .fa {
     display: none; }
-  /* line 187, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+  /* line 189, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
   .about {
     font-size: 10px;
     text-align: center;
@@ -183,7 +183,7 @@ body,
     right: 0;
     top: 0;
     bottom: 0; }
-  /* line 197, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+  /* line 199, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
   .menu-button {
     background: #000;
     width: 50px;
@@ -193,10 +193,10 @@ body,
     transition: all linear .3s;
     padding: 4px;
     z-index: 1; }
-  /* line 207, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+  /* line 209, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
   .menu-button.active {
     background: #3d3d3d; }
-  /* line 210, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+  /* line 212, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
   .line-1,
   .line-2,
   .line-3 {
@@ -206,21 +206,21 @@ body,
     margin: 4px auto;
     border-radius: 2px;
     transition: all linear .3s; }
-  /* line 220, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+  /* line 222, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
   .line-1.active {
     transform: translate(0px, 12px) rotate(45deg);
     -webkit-transform: translate(0px, 12px) rotate(45deg);
     -moz-transform: translate(0px, 12px) rotate(45deg);
     -o-transform: translate(0px, 12px) rotate(45deg); }
-  /* line 226, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+  /* line 228, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
   .line-2.active {
     opacity: 0; }
-  /* line 229, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+  /* line 231, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
   .line-3.active {
     -webkit-transform: translate(0px, -12px) rotate(-45deg);
     transform: translate(0px, -12px) rotate(-45deg); } }
 
-/* line 235, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
+/* line 237, C:/Users/ryank/Dropbox/web-dev/Ryans Website/Prometheus59.github.io/scss/nav.scss */
 a {
   text-decoration: none; }
 

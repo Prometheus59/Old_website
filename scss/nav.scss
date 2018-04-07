@@ -102,7 +102,8 @@ body,
   transition-duration: 1s;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 900px) {
+
   .icon {
     color: #fff;
     font-size: 32px;
@@ -114,6 +115,7 @@ body,
       line-height: 2;
     }
   }
+
   .icons ul {
     position: fixed;
     z-index: 1;
@@ -168,13 +170,13 @@ body,
     text-rendering: auto;
     transform: translate(0, 0);
   }
-  #men-button {
+  .menu-button {
     display: none;
   }
 }
 
-@media screen and (min-width: 200px) {
-  // This isn't working
+@media screen and (max-width: 899.99999px) {
+  // TODO: This is the jankiest shit, fix it soon
 
   .icons ul {
     display: none;
